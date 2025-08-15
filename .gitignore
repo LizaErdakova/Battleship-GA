@@ -1,0 +1,31 @@
+# Бинарные файлы и директории сборки
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Файлы IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Временные файлы
+/tmp*
+*.tmp
+*.log
+core.*
+
+# Другие файлы, которые обычно не включаются в репозиторий
+.DS_Store
+Thumbs.db
